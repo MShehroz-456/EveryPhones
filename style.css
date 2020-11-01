@@ -1,0 +1,48 @@
+.bgimg{
+	width: 100%;
+	height: 700px;
+	background-image: url('images/mobile.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.content{
+	padding-top: 185px;
+}
+.content span{
+	color: lightskyblue;
+}
+.conright{
+	float: right;
+	padding-top: 125px;
+	width: 400px;
+}
+.bg_gradient{
+	background-image: linear-gradient(to right, royalblue, steelblue);
+}
+.bg_secondary{
+	background-image: linear-gradient(grey,lightgrey);
+}
+
+/* Responsive */
+
+@media(min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media(min-width: 575px) and (max-width: 767px) {
+	
+}
+
+@media(min-width: 480px)  and (max-width: 574px) {
+	
+}
+
+@media(max-width: 479px) {
+	.content h4, h3{
+		color: black;
+	}
+	.conright h1{
+		margin-left: 50px;
+		color: black;
+	}
+}
